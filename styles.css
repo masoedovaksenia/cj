@@ -1,0 +1,152 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151a35e8;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-text {
+    text-align: center;
+    color: white
+}
+
+.banner-section {
+    padding: 100px 0;
+    background: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title {
+    font-size: 48px;
+}
+
+.banner-description {
+    text-align: center;
+    color: white;
+}
+
+.card-section {
+    padding: 50px 0px;
+}
+
+.cards-title, .cards-description {
+    color: darkblue;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    padding: 25px;
+    margin-top: 25px;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 14px 0 #9e90ff; 
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.card-button {
+    text-align: center;
+    background: indigo;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+.card-title, .card-text {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: url(img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyright {
+    color: white
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-menu {
+    flex-grow: 3;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footer-search-input {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-search-button {
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+}
